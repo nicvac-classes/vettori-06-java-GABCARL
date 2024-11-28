@@ -1,26 +1,30 @@
-//LEGGERE LE ISTRUZIONI NEL FILE README.md
-
-//Import di Classi Java necessarie al funzionamento del programma
 import java.util.Scanner;
 
-// Classe principale, con metodo main
-class Esercizio {
-    // Il programma parte con una chiamata a main().
-    public static void main(String args[])
-    {
-        //Variabili del programma
-        String nome;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String nomi[];
+        nomi= new String[n];
+        String nazionali[];
+        nazionali= new String [n];
+        float tempo[];
+        tempo= new float [n];
+        tempo[n]=0;
+        System.out.printl("quanti atleti partecipno");
+        n= scanner.nextInt();
+        for(int i=0; i<n-1; i++){
+            System.out.println("inserire il nome dell' atleta");
+            nomi[i]= scanner.nextLine();
+            System.out.println("scrivi il nome della nazionale");ù
+            nazionali[i]= scanner.nextLine();
+            tempo[i]=(900+ random(400)/100);
 
-        //Creo l'oggetto in per l'input da tastiera
-        Scanner in = new Scanner( System.in );
-
-        //Leggo l'input da tastiera
-        System.out.print("Inserisci il tuo nome: ");
-        nome = in.nextLine();
-
-        //Output del nome acquisito da tastiera
-        System.out.println("Ciao "+nome+"!");
-    }
-}
+        }
+           for(int i=0; i<n-1; i++){
+            if (tempo[i]<min){
+                imin=i;
+                min=tempo[i]
+            }
+           }
 
 //LEGGERE LE ISTRUZIONI NEL FILE README.md
